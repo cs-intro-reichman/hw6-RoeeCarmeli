@@ -122,7 +122,7 @@ public class Runigram {
 	public static Color[][] grayScaled(Color[][] image) {
 		Color[][] grayImage = new Color[image.length][image[0].length];
 		for (int i = 0; i < image.length; i++) {
-			for (int j = 0; j < image[0].length; j++) {
+			for (int j = 0; j < image[i].length; j++) {
 				grayImage[i][j] = luminance(image[i][j]);
 			}
 		}
