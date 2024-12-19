@@ -19,6 +19,11 @@ public class Runigram {
 		image = scaled(tinypic, 3, 5);
 		System.out.println();
 		print(image);
+
+		// Tests the horizontal flipping of an image:
+		image = grayScaled(tinypic);
+		System.out.println("gray");
+		print(image);
 		
 		//// Write here whatever code you need in order to test your work.
 		//// You can continue using the image array.
